@@ -29,7 +29,9 @@ const router=createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ <div className='mx-[10%] bg-slate-200 mt-12 rounded-md'>
+   <StrictMode>
    <RouterProvider router={router}></RouterProvider>
   </StrictMode>,
+ </div>
 )
